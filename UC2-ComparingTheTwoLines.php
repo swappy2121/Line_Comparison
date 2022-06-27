@@ -20,7 +20,7 @@ class LineComparison{
 
 public function calLengthOfLine(){
      $this->lengthOfLine = sqrt(($this->x2-$this->x1)**2+($this->y2-$this->y1)**2);
-     return round($this->lengthOfLine,2);
+     return $this->lengthOfLine;
 }
 
 public function checkEquality($line1,$line2){
